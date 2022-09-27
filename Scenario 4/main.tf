@@ -18,7 +18,7 @@ resource "aws_security_group" "Scenario4" {
     from_port   = 389
     to_port     = 389
     protocol    = "udp"
-    cidr_blocks = ["192.168.1.1/32"]
+    cidr_blocks = ["192.168.1.1/33"]
   }
 
   tags = {
