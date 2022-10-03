@@ -21,6 +21,6 @@ resource "aws_security_group" "Scenario12" {
     cidr_blocks = ["172.16.0.0/16"]
   }
   tags = {
-    Name = "SG with Single port(UDP and TCP) and single IP"
+    Name = "SG with Single port(UDP and TCP) and single IP "
   }
 }
