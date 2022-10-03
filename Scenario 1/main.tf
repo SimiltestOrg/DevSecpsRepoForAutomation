@@ -15,7 +15,7 @@ resource "aws_security_group" "Scenario1" {
   }
 
   tags = {
-    Name = "Scenario1"
+    Name = "Scenario1 "
   }
 }
 
