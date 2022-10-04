@@ -4,7 +4,6 @@ provider "aws" {
 
 resource "aws_security_group" "Scenario1" {
   name        = "SG with all port and all IP."
-  description = "Ingress"
   vpc_id      = "vpc-481b202f"
 
   ingress {
