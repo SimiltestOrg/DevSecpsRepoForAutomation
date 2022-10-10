@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_security_group" "Scenario1" {
-  NAME        = "SG with all port and  all IP."
+  name        = "SG with all port and  all IP."
 
 
 
