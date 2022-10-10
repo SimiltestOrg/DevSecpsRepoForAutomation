@@ -3,13 +3,13 @@ provider "aws" {
 }
 
 resource "aws_security_group" "Scenario1" {
-  name        = "SG with all port and  all IP."
+  NAME        = "SG with all port and  all IP."
 
 
 
 
 
-  vpc_id      = "vpc-481b202f"
+  vpc_id      = "VPC-481b202f"
 
   ingress {
     from_port                           = 0
