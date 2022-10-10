@@ -1,7 +1,5 @@
 provider "aws" {
   region     = "us-west-1"
-  access_key = "AKIAXN5RHA6V64QNB743"
-  secret_key = "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"
 }
 
 resource "aws_security_group" "Scenario17" {
